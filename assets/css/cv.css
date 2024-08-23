@@ -1,0 +1,127 @@
+/* Selector de clase*/
+.selector {
+    border: 3px solid red;
+}
+
+
+/* Selector universal */
+*. {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Selector por etiqueta */
+header {
+    background: #23466d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background: #23466d;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#menu {
+    background-color: #d6dbdf;
+
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    border-right: 3px solid #ccc;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover {
+    background: gray;
+    cursor: pointer;
+}
+
+#menu ul li:hover a {
+    color: white;
+}
+
+#form {
+    display: inline;
+}
+
+#contenido {
+    text-align: center;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+
+#contenido table {
+    margin: auto;
+}
+
+
+#contenido form {
+  border: 3px solid #7d0a42;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+
+/* Selector por elemento */
+input[type="text"], input[type="email"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"], button {
+    margin-top: 10px;
+    background: #7d0a42;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+#contenido h2 {
+    text-align: center;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+
+/*Selector por clase */ 
+.clear-fix {
+    float: none;
+    clear: both;
+}
+
+
+.format-bootstrap {
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+@media(max-width: 500px) {
+    .col-xl-12 {
+      height: 50px;
+    }
+  }
